@@ -1,14 +1,40 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Sentimental Analysis
     </ion-title>
   </ion-navbar>
 </ion-header>
 
+
+
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v3">docs</a> will be your guide.
-  </p>
+  <!-- <ion-list-header color="light">Vertical Bar Chart</ion-list-header> -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Chart in pink</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <canvas #barChart></canvas>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Chart in orange</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <canvas #barChart1></canvas>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Chart in green</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <canvas #barChart2></canvas>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
