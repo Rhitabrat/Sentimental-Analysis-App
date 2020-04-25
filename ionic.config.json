@@ -1,0 +1,7 @@
+{
+  "name": "SentimentalAnalysis",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "ionic-angular"
+}
